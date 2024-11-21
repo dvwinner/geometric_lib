@@ -29,6 +29,12 @@ def area(a: int, h: int) -> float
 def perimeter(a: int, b: int, c: int) -> int
 ```
 
+### Файл segment.py ###
+Содержит функцию нахождения длины отрезка
+```
+def distance(x: int, y: int, x1: int, y1: int) -> float
+```
+
 ## Примеры использования ##
 ### Примеры использования circle.py
 ```
@@ -65,6 +71,16 @@ a, b, c, h_to_a = map(int, input().split())
 
 print(triangle.area(a, h_to_a), triangle.perimeter(a, b, c))
 ```
+
+### Примеры использования segment.py
+```
+import segment
+
+x, y, x1, y1 = map(int, input().split())
+
+print(segment.distance(x, y, x1, y1))
+```
+
 ## История коммитов ##
 ```
 8b28554 Merge pull request #2 from dvwinner/new_features_465420
