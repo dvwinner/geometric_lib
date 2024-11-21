@@ -82,7 +82,7 @@ print(segment.distance(x, y, x1, y1))
 ```
 
 ### Тесты (unittest)
-Были добавлены тесты для функции distance(x, y, x1, y1) в файле библиотеки segment.py
+Были добавлены [тесты]../tests/test.py для функции distance(x, y, x1, y1) в файле библиотеки segment.py
 
 ## История коммитов ##
 ```
