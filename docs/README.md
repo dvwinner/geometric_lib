@@ -81,10 +81,18 @@ x, y, x1, y1 = map(int, input().split())
 print(segment.distance(x, y, x1, y1))
 ```
 
+### Тесты (unittest)
+Были добавлены тесты для функции distance(x, y, x1, y1) в файле библиотеки segment.py
+
 ## История коммитов ##
 ```
+4ca8adf (HEAD -> main, origin/main, origin/HEAD) Merge branch 'main' of https://github.com/dvwinner/geometric_lib                                                                                   
+dd9f864 Added tests
+cdd23cf Update README.md
+1d249cc Segment length support
+285de64 Update README.md
 8b28554 Merge pull request #2 from dvwinner/new_features_465420
-f8195b7 Added comments in triangle.py funcs
+f8195b7 (origin/new_features_465420) Added comments in triangle.py funcs
 a42e409 Added comments in square.py funcs
 da542bf Added comms to rectangle.py funcs | Changed comms to circle.py
 7d1cede Added comments in circle.py funcs
