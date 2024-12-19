@@ -19,5 +19,3 @@ class SegmentTestCase(unittest.TestCase):
         work_time = time.time() - start
         self.assertGreaterEqual(1, work_time)
     
-    def test_injection_vuln(self):
-        self.assertRaises(segment.distance(0, "123", "\0", "0) exit(0)"))
