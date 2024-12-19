@@ -14,3 +14,5 @@ def distance(x, y, x1, y1):
                     length (float): Длина отрезка.
     '''
     return math.sqrt((x1 - x) ** 2 + (y1 - y) ** 2)
+
+#lol
